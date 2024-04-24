@@ -7,8 +7,8 @@ namespace Challenge1.Library.Models;
 public class Appointment
 {
     private int _id;
-    private Doctor _doctor;
-    private Patient _patient;
+    private Doctor _doctor = new();
+    private Patient _patient = new();
     private DateTime _appointmentDateTime;
 
     public int Id

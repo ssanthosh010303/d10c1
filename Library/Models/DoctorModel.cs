@@ -7,8 +7,8 @@ namespace Challenge1.Library.Models;
 public class Doctor
 {
     private int _id;
-    private string _name;
-    private string _specialization;
+    private string _name = string.Empty;
+    private string _specialization = string.Empty;
     private List<Appointment> _appointments = [];
 
     public int Id
