@@ -13,7 +13,7 @@ dotnet build --project ./Library/Library.csproj
 
 This will output the assembly as DLL to `./Library/bin/` folder.
 
-## Test (28 cases)
+## Test (43 cases)
 
 Similar to the build method, navigate to the project folder and run the following command:
 
